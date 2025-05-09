@@ -82,6 +82,8 @@ export default async function Page() {
   const heroPost = allPosts[0];
   const morePosts = allPosts.slice(1);
 
+  console.log('哈哈哈哈')
+
   return (
     <div className="container mx-auto px-5">
       <Intro />
